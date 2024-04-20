@@ -34,7 +34,7 @@ const App = () => {
 
             value={question}
             onChange={(e) => setQuestion(e.target.value)}
-            placeholder="Enter your question here..."
+            placeholder="Ask Something..."
           />
           <button className='btn'
 
