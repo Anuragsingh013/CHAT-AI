@@ -10,12 +10,12 @@
   flex-direction: column;
   flex-wrap: wrap;
   padding: 12px;
-  height: 100vh;
+  height: 80vh;
 
 }
 .answer {
   width: 60%;
-  height: 70%;
+  height: 80%;
   padding: 2% 8%;
   font-size: 1.2rem;
   letter-spacing: 2px;
@@ -78,5 +78,23 @@
     .answer{
         width: 80%;
     }
+    .input-box{
+      padding:  16px;
+    font-size: 1.1rem;
+  }
+  .btn{
+      padding: 4px;
+      color: #fff;
+      border-radius: 12px;
+      transition: .3s;
+  }
+  .image{
+    border-radius: 50%;
+    /* background: rgb(0, 0, 0,.6); */
+    background: rgb(36, 180, 161);
+    padding:24%;
+  
+  
+  }
 }
 
