@@ -23,7 +23,7 @@ const App = () => {
   }
 
   return (
-    <div className=''>
+    <div className='app-container'>
       <h1 className='title'>CHAT-AI</h1>
       <div className="app">
         <div className="answer">
