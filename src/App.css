@@ -78,6 +78,9 @@
     .answer{
         width: 80%;
     }
+    .prompt{
+      margin-left: 12px;
+    }
     .input-box{
       width: 70%;
       padding:  16px;
