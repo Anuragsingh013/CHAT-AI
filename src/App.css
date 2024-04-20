@@ -71,6 +71,11 @@
   transform: scale(1.04);
 }
 @media screen and (max-width: 720px) {
+  .title {
+
+    font-size:2.6rem;
+
+  }
   .answer {
     width: 85%;
     font-size: 1rem;
