@@ -1,12 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body{
-    /* background-color: #f0f0f0; Light gray background */
+body {
+  /* background-color: #f0f0f0; Light gray background */
 
-    background-image: url('./assets/bg3.png');
-    background-position:right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-height: 100vh;
+  background-image: url("./assets/bg3.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 100vh;
 }
