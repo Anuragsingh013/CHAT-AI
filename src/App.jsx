@@ -21,6 +21,10 @@ const App = () => {
     setAnswer(response.data.candidates[0].content.parts[0].text)
     console.log(response)
   }
+    // function to copy answer to clipboard
+    function copyToClipboard() {
+      navigator.clipboard.writeText(answer);
+    }
 
   return (
     <div className='app-container'>
@@ -28,6 +32,12 @@ const App = () => {
       <div className="app">
         <div className="answer">
           <p>{!answer?"Hello there! How can I assist you today?":answer}</p>
+          <button
+                className="copy-btn"
+                onClick={copyToClipboard}
+              >
+                Copy
+              </button>
         </div>
         <div className="prompt">
           <input className='input-box'
