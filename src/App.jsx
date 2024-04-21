@@ -22,12 +22,18 @@ const App = () => {
     console.log(response)
   }
 
+  // function to copy answer to clipboard
+  function copyToClipboard() {
+    navigator.clipboard.writeText(answer);
+  }
+
   return (
     <div className='app-container'>
       <h1 className='title'>CHAT-AI</h1>
       <div className="app">
         <div className="answer">
-          <p>{!answer?"Hello there! How can I assist you today?":answer}</p>
+          <p>{!answer ? "Hello there! How can I assist you today?" : answer}</p>
+          <button className='copy-btn' onClick={copyToClipboard} > Copy </button>
         </div>
         <div className="prompt">
           <input className='input-box'
@@ -42,9 +48,11 @@ const App = () => {
           >
             <img className='image' src={upNew} alt="" />
           </button>
+        
 
         </div>
       </div>
+      
     </div>
   )
 }
