@@ -21,7 +21,6 @@ const App = () => {
     setAnswer(response.data.candidates[0].content.parts[0].text)
     console.log(response)
   }
-z
   return (
     <div className='app-container'>
       <h1 className='title'>CHAT-AI</h1>
