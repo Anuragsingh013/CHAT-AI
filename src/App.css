@@ -21,8 +21,8 @@
   overflow-y: scroll;
   /* border: 1px solid #ddd; */
   border-radius: 8px;
+
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  position: relative;
 }
 .answer:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
@@ -69,20 +69,6 @@
 }
 .btn:hover {
   transform: scale(1.04);
-}
-.copy-btn{
-  position: absolute;
-  background: rgb(36, 180, 161);
-  color: #fff;
-  padding: 4px;
-  font-size: 14px;
-  top: 0px;
-  right: 0px;
-  /* border-bottom-left-radius: 12px; */
-  /* border-top-left-radius: 12px; */
-}
-.copy-btn:hover{
-  background: rgb(16, 164, 144);
 }
 @media screen and (max-width: 720px) {
   .title {
